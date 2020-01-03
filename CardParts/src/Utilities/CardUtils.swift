@@ -5,7 +5,7 @@
 //  Created by Tumer, Deniz on 5/23/18.
 //
 
-import Foundation
+import UIKit
 
 /*
  * Defines utility methods for cards.

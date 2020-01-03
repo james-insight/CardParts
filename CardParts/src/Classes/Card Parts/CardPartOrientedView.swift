@@ -5,7 +5,7 @@
 //  Created by Tumer, Deniz on 6/13/18.
 //
 
-import Foundation
+import UIKit
 
 public enum Orientation {
     case top

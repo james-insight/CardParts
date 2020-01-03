@@ -5,7 +5,7 @@
 //  Created by Venkatnarayansetty, Badarinath on 9/19/19.
 //
 
-import Foundation
+import UIKit
 
 class CardPartTriangleView: UIView {
     var fillColor: UIColor = UIColor.white

@@ -5,7 +5,7 @@
 //  Created by Kier, Tom on 12/7/17.
 //
 
-import Foundation
+import UIKit
 
 public protocol CardPartsTheme {
     

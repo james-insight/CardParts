@@ -6,6 +6,8 @@
 //  Copyright © 2017 Intuit, Inc. All rights reserved.
 //
 
+import Foundation
+
 extension NSObjectProtocol {
     var className: String {
         return String(describing: type(of: self))

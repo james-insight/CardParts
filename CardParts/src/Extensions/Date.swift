@@ -6,6 +6,8 @@
 //  Copyright © 2017 Intuit, Inc. All rights reserved.
 //
 
+import Foundation
+
 enum DateFormat : String {
     case Date = "yyyy'-'MM'-'dd'", DateAndTime = "yyyy'-'MM'-'dd'T'HH':'mm':'ssZ", CreditDateAndTime = "yyyy-MM-dd'T'HH:mm:ss.sssZ", CreditShortDateAndTime = "MMMM yyyy", DateSlashes  = "MM/dd/yyyy", abbreviatedMonth = "MMM YYYY", abbreviatedMonthIncludeDate = "MMM d, YYYY"
 }

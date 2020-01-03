@@ -5,7 +5,7 @@
 //  Created by Roossin, Chase on 3/7/18.
 //
 
-import Foundation
+import UIKit
 
 open class CardPartCollectionViewCardPartsCell : UICollectionViewCell {
 

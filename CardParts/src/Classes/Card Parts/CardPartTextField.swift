@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Foundation
+import UIKit
 import RxSwift
 import RxCocoa
 

@@ -6,7 +6,7 @@
 //  Copyright © 2017 Mint.com. All rights reserved.
 //
 
-import Foundation
+import UIKit
 import RxSwift
 import RxCocoa
 

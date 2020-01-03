@@ -37,7 +37,7 @@ public class CardPartConfettiView: UIView, CardPartView {
         }
     }
     
-    public var confettiImages = [AssetManager.shared.image(for: .confetti)] as? [UIImage]
+    public var confettiImages = [AssetManager.shared.image(for: .confetti)]
     
     //A layer that emits, animates, and renders a particle system.
     var emitter: CAEmitterLayer = CAEmitterLayer()
@@ -133,7 +133,7 @@ public class CardPartConfettiView: UIView, CardPartView {
         case let .image(customImage):
             return customImage
         case .mixed:
-            return confettiImages?[index]
+            return confettiImages[index]
         case .confetti:
              return AssetManager.shared.image(for: .confetti)
         }

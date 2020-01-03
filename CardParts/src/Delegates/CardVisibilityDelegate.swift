@@ -5,6 +5,8 @@
 //  Created by Tumer, Deniz on 5/23/18.
 //
 
+import UIKit
+
 /*
  * This protocol handles passing data about the visibility of a card
  * from an instance of a CardsViewController to the card itself

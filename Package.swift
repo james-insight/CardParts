@@ -19,7 +19,8 @@ let package = Package(
         .target(
             name: "CardParts",
             dependencies: ["RxSwift", "RxCocoa", "RxDataSources", "RxGesture"],
-            path: "CardParts/src")
+            path: "CardParts/src",
+            exclude: ["Example"])
     ],
     swiftLanguageVersions: [.v5]
 )
